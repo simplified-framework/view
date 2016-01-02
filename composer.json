@@ -8,5 +8,12 @@
       "name": "Andreas Bratfisch",
       "email": "duskman72@gmail.com"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-4": {
+      "Simplified\\View\\":"src"
+    },
+    "files": [
+    ]
+  }
 }
