@@ -1,0 +1,12 @@
+{
+  "name": "simplified/view",
+  "description": "Simplified view module",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andreas Bratfisch",
+      "email": "duskman72@gmail.com"
+    }
+  ]
+}
