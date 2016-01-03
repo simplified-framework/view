@@ -8,7 +8,7 @@ class View {
     private $renderer;
 
     public function __construct() {
-        $provider = Config::get('providers', 'view', null);
+        $provider = Config::get('providers.view', null);
         if ($provider) {
             // use reflection to detect the provider class name
             $refMethod = new \ReflectionMethod($provider, 'provides');
