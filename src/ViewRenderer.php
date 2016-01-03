@@ -5,6 +5,7 @@ namespace Simplified\View;
 class ViewRenderer implements ViewRendererInterface {
 
     public function render($template, $data = array()) {
-        print "render $template";
+        $filePath = str_replace(".", "/", $template);
+        require RESOURCES_PATH . "views/" . $filePath .".php";
     }
 }
